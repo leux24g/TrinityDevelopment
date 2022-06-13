@@ -1,13 +1,4 @@
 /**
-*
-* ---------------------------------------------------------------------------
-*
-* Template : Blue - A One-Page HTML Portfolio/Business Template
-* Author : Muhammad Morshd
-* Author URI : http://morsheds.com
-*
-* --------------------------------------------------------------------------- 
-*
 */
 
 /* =================================== */
@@ -166,6 +157,10 @@ main > section {
     color: #fff;
 }
 
+.sec-title.black {
+    color: #000000;
+}
+
 .sec-title h2 {
     font-size: 36px;
     margin: 0 0 30px;
@@ -176,6 +171,9 @@ main > section {
 
 .sec-title.white h2 {
     color: #fff;
+}
+.sec-title.black h2 {
+    color: #000000;
 }
 
 .sec-title h2:after {
@@ -189,6 +187,10 @@ main > section {
 }
 
 .sec-title.white h2:after {
+    border-bottom: 1px solid #fff;
+}
+
+.sec-title2.white h2:after {
     border-bottom: 1px solid #fff;
 }
 
@@ -336,7 +338,6 @@ h1.navbar-brand {
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
     font-size: 15px;
-    text-transform: uppercase;
 }
 .nav ul li{
     display: inline-block;
@@ -448,7 +449,7 @@ h1.navbar-brand {
     min-height: 100%;
     position: absolute;
     text-align: center;
-    top: 0;
+    top: 200px;
     width: 100%;
     z-index: 11;
 }
@@ -825,28 +826,28 @@ ul.external li a:hover {
 ==================================================================*/
 
 
-#testimonials {
+#aboutus {
     background-image: url(../img/parallax/home3.jpeg);
     padding: 0;
-    color: #fff;
+    color: #000000;
 }
 
-#testimonials .sec-title h2:after {
+#aboutus .sec-title h2:after {
     border-bottom: 1px solid #fff;
 }
 
-#testimonials .overlay {
+#aboutus .overlay {
     background-color: rgba(15,155,224, 0.78);
     padding: 70px 0 40px;
 }
 
-.testimonial-item {
+.aboutus-item {
     margin: 0 auto;
     padding-bottom: 50px;
     width: 64%;
 }
 
-.testimonial-item img {
+.aboutus-item img {
     border: 3px solid #fff;
     border-radius: 50%;
     display: inline-block;
@@ -854,12 +855,12 @@ ul.external li a:hover {
     max-width: 100px;
 }
 
-.testimonial-item > div {
+.aboutus-item > div {
     line-height: 30px;
     position: relative;
 }
 
-.testimonial-item > div:before {
+.aboutus-item > div:before {
     background-image: url("../img/icons/quotes.png");
     background-repeat: no-repeat;
     bottom: 127px;
@@ -869,7 +870,7 @@ ul.external li a:hover {
     width: 45px;
 }
 
-.testimonial-item > div:after {
+.aboutus-item > div:after {
     background-image: url("../img/icons/quotes.png");
     background-position: -58px 0;
     background-repeat: no-repeat;
@@ -880,25 +881,25 @@ ul.external li a:hover {
     width: 45px;
 }
 
-.testimonial-item > div > span {
+.aboutus-item > div > span {
     display: inline-block;
     font-weight: 700;
     margin: 40px 0 30px;
     text-transform: uppercase;
 }
 
-#testimonials .owl-controls.clickable {
+#aboutus .owl-controls.clickable {
     margin-top: 20px;
     text-align: center;
 }
 
-#testimonials .owl-buttons {
+#aboutus .owl-buttons {
     border: 2px solid #fff;
     float: inherit;
 }
 
-#testimonials .owl-prev:hover,
-#testimonials .owl-next:hover {
+#aboutus .owl-prev:hover,
+#aboutus .owl-next:hover {
     color: #fff;
 }
 
@@ -1002,6 +1003,12 @@ ul.external li a:hover {
 
 #social1 {
     background-image: url(../img/parallax/parallax1.png);
+    padding: 0;
+}
+
+#social2 {
+    background-image: url(../img/map.png);
+    filter: sepia(100%);
     padding: 0;
 }
 
@@ -1293,7 +1300,7 @@ textarea.form-control {
         bottom: -151px;
     }
 
-    .testimonial-item > div:after {
+    .aboutus-item > div:after {
         bottom: -40px;
     }
 }
@@ -1352,15 +1359,15 @@ textarea.form-control {
     }
 
 /* testimonial */
-    .testimonial-item {
+    .aboutus-item {
         width: 100%;
     }
 
-    .testimonial-item {
+    .aboutus-item {
         width: 80%;
     }
 
-    .testimonial-item > div:after {
+    .aboutus-item > div:after {
         bottom: -35px;
     }
 
@@ -1477,16 +1484,16 @@ textarea.form-control {
     }
 
 /* testimonial */
-    .testimonial-item {
+    .aboutus-item {
         width: 95%;
     }
 
-    .testimonial-item > div:before,
-    .testimonial-item > div:after {
+    .aboutus-item > div:before,
+    .aboutus-item > div:after {
         background-image: none;
     }
 
-    .testimonial-item > div > span {
+    .aboutus-item > div > span {
         margin: 30px 0 20px;
     }
 
@@ -1568,11 +1575,11 @@ textarea.form-control {
     }
 
 /* testimonial */
-    .testimonial-item {
+    .aboutus-item {
         width: 80%;
     }
 
-    .testimonial-item > div:before {
+    .aboutus-item > div:before {
         bottom: 160px;
     }
 
