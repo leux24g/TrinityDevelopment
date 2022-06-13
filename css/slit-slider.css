@@ -202,24 +202,14 @@
 
 .bg-img-1 {
 	background-image: url(../img/slider/slider3.png);
+        filter: saturate(200%);
 }
 .bg-img-2 {
 	background-image: url(../img/slider/slider2.png);
 }
 .bg-img-3 {
 	background-image: url(../img/slider/slider1.png);
-}
-.bg-img-4 {
-	background-image: url(../img/map.png);
-}
-.bg-img-5 {
-	background-image: url(../img/slider/slider1.png);
-}
-.bg-img-6 {
-	background-image: url(../img/slider/slider1.png);
-}
-.bg-img-7 {
-	background-image: url(../img/slider/slider1.png);
+        filter: saturate(200%);
 }
 
 
